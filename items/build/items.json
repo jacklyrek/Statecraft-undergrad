@@ -1,0 +1,48 @@
+[
+  {
+    "id": "u1-decision-01",
+    "prompt": "You inherit a fragile agrarian empire in 1200. Your army is loyal to your cousin, your revenue is thin, and the provincial elites are half-hostile. What do you do first?",
+    "answer": "Secure the military coalition and the fiscal base before expanding administration; the first task is to make the apparatus obey you rather than merely to issue decrees.",
+    "type": "decision",
+    "source_page": "wiki/era-agrarian-empire.md",
+    "topic": "state-formation",
+    "cluster": "state-formation",
+    "bloom_level": "analyze",
+    "era": "agrarian-empire",
+    "unit": "1"
+  },
+  {
+    "id": "u1-forecast-01",
+    "prompt": "A ruler in a weakly institutionalized state faces a succession crisis and a military mutiny. Without revealing the outcome, what does a state-capacity framework predict will be the most likely early failure point?",
+    "answer": "It predicts that the regime will struggle first with revenue and coercive coordination, because the state cannot reliably finance and command the forces it needs.",
+    "type": "forecast",
+    "source_page": "wiki/debate-state-capacity-vs-elite-bargaining.md",
+    "topic": "state-capacity",
+    "cluster": "state-capacity",
+    "bloom_level": "evaluate",
+    "unit": "1"
+  },
+  {
+    "id": "u1-counterfactual-01",
+    "prompt": "Remove elite bargaining from a case of state formation. What does the counterfactual predict will change most?",
+    "answer": "The regime would likely become more brittle, because the capacity to tax, mobilize, and coordinate would be harder to sustain without elite cooperation.",
+    "type": "counterfactual",
+    "source_page": "wiki/debate-state-capacity-vs-elite-bargaining.md",
+    "topic": "elite-bargaining",
+    "cluster": "state-capacity",
+    "bloom_level": "analyze",
+    "unit": "1"
+  },
+  {
+    "id": "u1-cross-era-01",
+    "prompt": "This worked for Augustus. Why cannot the same approach be copied directly by a ruler in the early modern period, and what is the substitute?",
+    "answer": "The institutional environment is different: the scale, military technology, and fiscal apparatus are not the same. The substitute is a more explicit system of provincial administration, fiscal extraction, and elite bargaining adapted to the new era.",
+    "type": "compare",
+    "source_page": "wiki/case-rome.md",
+    "topic": "cross-era-transfer",
+    "cluster": "cross-era",
+    "bloom_level": "evaluate",
+    "era": "early-modern",
+    "unit": "1"
+  }
+]
