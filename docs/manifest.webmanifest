@@ -1,7 +1,7 @@
 {
-  "name": "Psych Wiki — counseling study",
-  "short_name": "Psych Wiki",
-  "description": "Spaced-repetition quizzing and readings for a counseling-foundations curriculum.",
+  "name": "Statecraft Wiki — governance study",
+  "short_name": "Statecraft Wiki",
+  "description": "Spaced-repetition quizzing and readings for a statecraft and political history curriculum.",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",

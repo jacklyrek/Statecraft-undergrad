@@ -14,12 +14,12 @@ import * as sm2 from './sm2.js';
 import * as api from './supabase.js';
 
 const KEY = {
-  state: 'psych.state.v1',
-  queue: 'psych.queue.v1',
-  log: 'psych.log.v1',
-  session: 'psych.studysession.v1',
-  contentVersion: 'psych.contentversion.v1',
-  lastSync: 'psych.lastsync.v1',
+  state: 'statecraft.state.v1',
+  queue: 'statecraft.queue.v1',
+  log: 'statecraft.log.v1',
+  session: 'statecraft.studysession.v1',
+  contentVersion: 'statecraft.contentversion.v1',
+  lastSync: 'statecraft.lastsync.v1',
 };
 
 const url = (rel) => new URL(rel, import.meta.url).href;

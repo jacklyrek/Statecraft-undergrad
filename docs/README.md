@@ -85,7 +85,7 @@ python apps/sync_supabase.py push       # 712 state rows + 554 attempts -> Supab
 
 1. Commit and push, `docs/content/` included — Pages serves what's in the repo.
 2. Repo **Settings → Pages** → Source: **Deploy from a branch** → Branch: **master**, folder: **/docs** → **Save**.
-3. A minute later it's at `https://<you>.github.io/psych-undergrad/`.
+3. A minute later it's at `https://<you>.github.io/world-leader-undergrad/`.
 
 Every later `git push` redeploys. Two things to know:
 

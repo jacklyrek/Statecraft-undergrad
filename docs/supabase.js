@@ -10,7 +10,7 @@
 
 import { SUPABASE_URL, SUPABASE_ANON_KEY } from './config.js';
 
-const SESSION_KEY = 'psych.session.v1';
+const SESSION_KEY = 'statecraft.session.v1';
 const REFRESH_MARGIN_S = 120;   // refresh a token this long before it actually expires
 
 export const configured = Boolean(SUPABASE_URL && SUPABASE_ANON_KEY);

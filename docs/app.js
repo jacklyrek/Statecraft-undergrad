@@ -1,4 +1,4 @@
-// Psych Wiki — views, routing, and the study loop.
+// Statecraft Wiki — views, routing, and the study loop.
 //
 // The loop is the one from apps/quiz_runner.py, unchanged in substance because the substance is the
 // point (learning-science-for-self-study.md):
@@ -304,7 +304,7 @@ function render() {
     else a.removeAttribute('aria-current');
   }
 
-  let title = TITLES[tab] || 'Psych Wiki';
+  let title = TITLES[tab] || 'Statecraft Wiki';
   let showBack = false;
   let html = '';
 
@@ -983,6 +983,12 @@ function viewYou() {
   return `
     ${syncCard}
 
+    <div class="section-title">Other wikis</div>
+    <div class="card card-tight">
+      <p class="meta" style="margin:0 0 .6rem">Same study system, different curriculum.</p>
+      <a class="btn btn-ghost btn-sm" href="https://jacklyrek.github.io/psych-undergrad/">Open Psych Wiki →</a>
+    </div>
+
     <div class="section-title">Version</div>
     <div class="card card-tight">
       <p class="meta" style="margin:0">Build <code>${esc(localStorage.getItem(BUILD_KEY) || '—')}</code> ·
@@ -1308,7 +1314,7 @@ store.subscribe((what) => {
 
 // ---------------------------------------------------------------- boot
 
-const BUILD_KEY = 'psych.build.v1';
+const BUILD_KEY = 'statecraft.build.v1';
 
 /** The deployed build id, or null if the network couldn't answer.
  *
