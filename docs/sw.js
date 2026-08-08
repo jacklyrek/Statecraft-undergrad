@@ -10,7 +10,7 @@
 // redeploy is a content rebuild rather than an urgent bug fix, and because on a phone the 3 MB
 // content bundle must never be re-downloaded just to open the app.
 //
-// All paths are relative — GitHub Pages serves this from /world-leader-undergrad/, not the domain root.
+// All paths are relative — GitHub Pages serves this from /Statecraft-undergrad/, not the domain root.
 
 // Bumping this name is what purges everything the previous version cached — `activate` deletes any
 // cache whose name isn't this one. Bump it whenever the caching behaviour below changes.
